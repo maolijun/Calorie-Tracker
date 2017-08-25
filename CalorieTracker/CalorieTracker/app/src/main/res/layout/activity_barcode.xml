@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press to Scan Bar Code"
+        android:id="@+id/scan"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Product"
+        android:freezesText="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="none"
+        android:freezesText="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/productName"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner android:id="@+id/scanner_mealtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="170dp"
+        android:entries="@array/meal_type_options"></Spinner>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Daily Calorie: "/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/productCalorie"
+            android:text="0"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Daily Sodium: "/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/productSodium"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="240sp"
+        android:layout_marginLeft="190sp"
+        android:background="#000000" />
+    <View
+        android:layout_width="3dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="240sp"
+        android:layout_marginLeft="40sp"
+        android:background="#000000" />
+    <View
+        android:layout_width="3dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="240sp"
+        android:layout_marginLeft="360sp"
+        android:background="#000000" />
+
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="240sp"
+        android:layout_marginLeft="40sp"
+        android:background="#000000" />
+    <View
+        android:layout_width="320dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="280sp"
+        android:layout_marginLeft="40sp"
+        android:background="#000000" />
+    <View
+        android:layout_width="320dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="330sp"
+        android:layout_marginLeft="40sp"
+        android:background="#000000" />
+    <View
+        android:layout_width="320dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="377sp"
+        android:layout_marginLeft="40sp"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Daily Carb: "/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/productCarbs"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Daily Protein: "/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/productProtein"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Weight: "/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/productWeight"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Water today: "/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/productWater"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="130dp"
+        android:text="Clear"
+        android:id="@+id/clearButton" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="220dp"
+        android:text="Add"
+        android:id="@+id/addButton" />
+
+</RelativeLayout>

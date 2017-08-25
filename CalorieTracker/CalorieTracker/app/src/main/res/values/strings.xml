@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Calorie Tracker</string>
+    <string name="menu_calendar_label">Calendar</string>
+    <string name="menu_today_label">Today</string>
+    <string name="menu_settings_label">Settings</string>
+    <string name="daily_activity_label">Daily</string>
+    <string name="main_activity_label">Main Menu</string>
+    <string name="settings_activity_label">Settings</string>
+    <string name="calendar_activity_label">Calendar</string>
+    <string name="progress_activity_label">Daily Progress</string>
+    <string name="weight_activity_label">Weight Tracking</string>
+    <string name="barcode_activity_label">Scan Barcode</string>
+    <string name="friend_activity_label">Friend</string>
+    <string name="ranking_activity_label">Ranking</string>
+    <string name="to_main">Main Menu</string>
+    <string name="month_label">Month YEAR</string>
+    <string name="sun">S</string>
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thu">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+    <string name="daily_caloric_limit">Enter desired daily calorie intake:</string>
+    <string name="daily_protein_limit">Enter desired daily protein intake:</string>
+    <string name="daily_fat_limit">Enter desired daily fat intake:</string>
+    <string name="daily_carb_limit">Enter desired daily carbohydrate intake:</string>
+    <string name="daily_sodium_limit">Enter desired daily sodium intake:</string>
+    <string name="save_settings">Update Settings</string>
+    <string name="menu_weight_label">Weight Tracking</string>
+    <string name="menu_progress_label">Daily Progress</string>
+    <string name="menu_photo_label">Scan Barcode</string>
+    <string name="menu_friend_label">Friend</string>
+    <string name="menu_ranking_label">Ranking</string>
+    <string name="menu_logout_label">Logout</string>
+    <string-array name="meal_type_options">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snacks</item>
+    </string-array>
+    <string name="take_photo">Scan Barcode</string>
+    <string name="recorded_weights">Recorded Weights</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- Add a string with the name facebook_app_id-->
+    <string name="facebook_app_id">407587119631214</string>
+
+</resources>
